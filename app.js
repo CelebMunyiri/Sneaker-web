@@ -1,5 +1,7 @@
 "use strict";
 const button = document.querySelector(".btn");
 button.addEventListener("click", function () {
-  prompt("Do you want to buy this");
+  if (prompt("Do you want to buy this").valueOf === "yes") {
+    button.textContent = "BOUGHT";
+  }
 });
