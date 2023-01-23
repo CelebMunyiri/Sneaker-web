@@ -12,3 +12,9 @@ button.addEventListener("click", function () {
     button.textContent = "BOUGHT";
   }
 });
+document.addEventListener("keyup", (e) => {
+  if (e.key === "PrintScreen") {
+    navigator.clipboard.writeText("");
+    alert("Screenshot is denied in this site");
+  }
+});
