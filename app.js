@@ -1,7 +1,18 @@
 "use strict";
 const button = document.querySelector(".btn");
 let cart = {};
-
+const product = [
+  {
+    id: 0,
+    image: image / gg - 1,
+    title: "Z Flip foldable",
+    price: 120,
+  },
+  {
+    id: 1,
+    image: image / gg - 2,
+  },
+];
 //A function to add items tothe cart
 function addCart(item, quantity) {}
 
