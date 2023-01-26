@@ -12,6 +12,10 @@ const product = [
     id: 1,
     image: image / gg - 2,
   },
+  {
+    id: 2,
+    image: image / gg - 3,
+  },
 ];
 //A function to add items tothe cart
 function addCart(item, quantity) {}
